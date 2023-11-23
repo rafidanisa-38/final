@@ -105,6 +105,7 @@ body {
 	margin-bottom: 2%;
 	display: inline-block;
 	position: absolute;
+	cursor: pointer;
 }
 
 .logo img {
