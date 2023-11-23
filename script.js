@@ -12,7 +12,6 @@ min.onclick = function() {
 	box.classList.toggle("active");
 }
 
-
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 // Get the navbar
@@ -28,9 +27,7 @@ function myFunction() {
 	}
 }
 
-
-
-
+/*-----------------------------------------------------------------*/
 
 const text=document.getElementById("quotes");
 const author=document.getElementById("author");
@@ -66,6 +63,7 @@ const getNewQuote = async () =>
 }
 getNewQuote();
 
+/*-----------------------------------------------------------------*/
 
 const mediaQuery1 = window.matchMedia('(min-width: 900px)')
 const mediaQuery2 = window.matchMedia('(max-width: 900px)')
