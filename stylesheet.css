@@ -86,10 +86,12 @@
 	text-decoration: none;
 	list-style: none;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
 	background-color: white;
+	
 }
 
 .container {
@@ -1561,7 +1563,7 @@ body {
 	/*-----------------------------------------------------------------*/
 
 	.footer {
-		margin-top: 866.7%;
+		margin-top: 871%;
 		height: 88vw;
 	}
 
