@@ -152,7 +152,7 @@ body {
 	position: absolute;
 	right: 3.4%;
 	margin-top: 1.5%;
-	font-size: 5vw;
+	font-size: 5vw !important;
 	cursor: pointer;
 	color: white;
 }
@@ -1255,10 +1255,20 @@ body {
 		margin-top: 5%;
 	}
 
-	.plus span, .box .min {
-		right: 6%;
+	.plus span {
+		right: 4.5%;
 		margin-top: .5%;
 		font-size: 18vw !important;
+	}
+
+	.box .min {
+		right: 6%;
+		margin-top: 3%;
+		font-size: 18vw !important;
+	}
+
+	.box .min span {
+		font-size: 15vw !important;
 	}
 
 	.menu {
