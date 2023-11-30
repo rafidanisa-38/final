@@ -1255,10 +1255,10 @@ body {
 		margin-top: 5%;
 	}
 
-	.plus i, .box .min {
+	.plus span, .box .min {
 		right: 6%;
 		margin-top: .5%;
-		font-size: 18vw;
+		font-size: 18vw !important;
 	}
 
 	.menu {
