@@ -135,9 +135,9 @@ body {
 	position: absolute;
 }
 
-.plus i {
+.plus span {
 	position: absolute;
-	right: 4%;
+	right: 3%;
 	margin-top: 1.5%;
 	font-size: 5vw;
 	cursor: pointer;
@@ -150,12 +150,23 @@ body {
 
 .box .min {
 	position: absolute;
-	right: 4%;
+	right: 3.4%;
 	margin-top: 1.5%;
 	font-size: 5vw;
-	transform: rotate(45deg);
 	cursor: pointer;
 	color: white;
+}
+
+.box .min span {
+	font-size: 4vw !important;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 24
 }
 
 .box .min:hover {
